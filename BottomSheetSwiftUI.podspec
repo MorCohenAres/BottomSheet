@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = '13.0'
   spec.osx.deployment_target  = '10.15'
   
-  spec.source_files           = 'Sources/BottomSheet/**/*.swift'
-  spec.resource_bundle        = { 'BottomSheet_BottomSheet' => 'Sources/BottomSheet/**/*.xcassets' }
+  spec.source_files           = 'Sources/BottomSheetSwiftUI/**/*.swift'
+  spec.resource_bundle        = { 'BottomSheetSwiftUI' => 'Sources/BottomSheetSwiftUI/**/*.xcassets' }
   
 end
